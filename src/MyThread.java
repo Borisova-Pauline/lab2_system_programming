@@ -13,8 +13,7 @@ public class MyThread implements Runnable{
             this.to=5;
         }
         thread = new Thread(this, name);
-        System.out.println(thread);
-        //thread.start();
+        //System.out.println(thread);
     }
 
     @Override
